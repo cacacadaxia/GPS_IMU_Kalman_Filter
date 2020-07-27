@@ -5,9 +5,13 @@
 ## 算法模型
 
 飞机模型如下：
+
+
 $$
 x_{k}=\left[\begin{array}{c}x \\ y \\ \dot{x} \\ \dot{y} \\ \ddot{x} \\ \ddot{y}\end{array}\right]
 $$
+
+
 运动方程为：
 $$
 x_{k+1}=A \cdot x_{k}+B \cdot u
@@ -230,5 +234,5 @@ plot_x()
 
 最终的结果如下：
 
-![DraggedImage-1.png](https://imgconvert.csdnimg.cn/aHR0cDovL3E3bXEweDFjeS5ia3QuY2xvdWRkbi5jb20vdHAyMDIwMzI0MjEzODI5X0RyYWdnZWRJbWFnZS0xLnBuZw?x-oss-process=image/format,png#pic_center =400x)
+![DraggedImage-1.png](https://imgconvert.csdnimg.cn/aHR0cDovL3E3bXEweDFjeS5ia3QuY2xvdWRkbi5jb20vdHAyMDIwMzI0MjEzODI5X0RyYWdnZWRJbWFnZS0xLnBuZw?x-oss-process=image)
 ![DraggedImage-2.png](https://imgconvert.csdnimg.cn/aHR0cDovL3E3bXEweDFjeS5ia3QuY2xvdWRkbi5jb20vdHAyMDIwMzI0MjEzODI5X0RyYWdnZWRJbWFnZS0yLnBuZw?x-oss-process=image)
