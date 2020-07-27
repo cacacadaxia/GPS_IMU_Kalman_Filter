@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ekf_gps"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ekf_gps">
+				<Option output="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/ekf_gps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/eigen/3.3.7/include/eigen3"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 ekf_gps"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ekf_gps/fast">
+				<Option output="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/ekf_gps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/eigen/3.3.7/include/eigen3"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 ekf_gps/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/ekf.cpp">
+			<Option target="ekf_gps"/>
+		</Unit>
+		<Unit filename="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/ekf.hpp">
+			<Option target="ekf_gps"/>
+		</Unit>
+		<Unit filename="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/fusion.cpp">
+			<Option target="ekf_gps"/>
+		</Unit>
+		<Unit filename="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/fusion.hpp">
+			<Option target="ekf_gps"/>
+		</Unit>
+		<Unit filename="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/geo_ned.cpp">
+			<Option target="ekf_gps"/>
+		</Unit>
+		<Unit filename="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/geo_ned.hpp">
+			<Option target="ekf_gps"/>
+		</Unit>
+		<Unit filename="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/main.cpp">
+			<Option target="ekf_gps"/>
+		</Unit>
+		<Unit filename="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/run_fusion.cpp">
+			<Option target="ekf_gps"/>
+		</Unit>
+		<Unit filename="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/run_fusion.hpp">
+			<Option target="ekf_gps"/>
+		</Unit>
+		<Unit filename="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/utils.cpp">
+			<Option target="ekf_gps"/>
+		</Unit>
+		<Unit filename="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/utils.hpp">
+			<Option target="ekf_gps"/>
+		</Unit>
+		<Unit filename="/Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

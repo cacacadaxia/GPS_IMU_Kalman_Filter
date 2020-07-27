@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/chenshiming/Desktop/工作资料/学习资料/IMU/GPS_IMU_Kalman_Filter-master的副本/src/cmake-build-debug
