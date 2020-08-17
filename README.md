@@ -2,10 +2,11 @@
 
 该项目在项目[1](https://github.com/chendaxiashizhu/Kalman)提供的算法与项目[2](https://github.com/karanchawla/GPS_IMU_Kalman_Filter)提供的C++代码上修改完成。
 
+重点参考https://github.com/balzer82/Kalman。
+
 ## 算法模型
 
 飞机模型如下：
-
 
 $$
 x_{k}=\left[\begin{array}{c}x \\ y \\ \dot{x} \\ \dot{y} \\ \ddot{x} \\ \ddot{y}\end{array}\right]
